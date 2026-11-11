@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>The Walking Valencia Project</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+		<main>
+			<h1> Life, the universe, and everything </h1>
+			
+			<p>There are many things that I didn’t expect at the start of this journey. I didn’t expect that trying to build a map would get me a job, I didn’t expect to spend so much time wondering what counts as a “street,” and I certainly didn’t expect to end up with a long list of side quests, extensions, and project ideas that will keep me busy for a long time. </p>
+			<p>But here I am, about to bring you behind the scenes to a place full of improbable questions that hang there in the air, much in the same way that bricks don’t, and come crashing down in the manner of a rather surprised-looking whale.</p>
+						 
+			 
+			<h2>What’s “Valencia”?</h2>
+			
+			<p>At first, I just wanted to walk, so that’s what I did, but after the first 100 km or so, some questions became unavoidable. For example, where does Valencia start? Where does it end? What even is “Valencia”?. I looked at official maps, and the result was… "interesting".</p>
+			<img src="maps/city-limit.jpeg" alt="map of valencia showing the official city limit">
+			
+			<p>The official city boundary goes well beyond what most people would consider Valencia and includes a series of (seemingly random) fields, beaches, and wetlands far from town. This gave rise to two pragmatic decisions. The first was to split the project into three phases:</p>
+			<p class="indent-block">- Zone 1, the primary goal, covering what most locals would think of when talking about Valencia</p>
+			<p class="indent-block">- Zone 2, the secondary, including most of the areas that are connected to the primary</p>
+			<p class="indent-block">- Zone 3, the final goal, including everything that falls within the official city limit</p>
+			<p>The second was to allow myself to walk any part of them at any time.</p>
+			<img src="maps/zones.jpeg" alt="map of valencia showing the official city limit">
+
+			<h2>What’s a “street”?</h2>
+			
+			<p>Having established what “Valencia” was, the next part of the “walk every street in Valencia” problem was figuring out what counts as a “street”. At first I tried to solve this using established categories like the ones on OpenStreetMap, but they didn’t fit the way I wanted to walk the city, so I built my own decision tree.</p>
+			<p>This had the unexpected advantage of allowing me to decide what elements of the city became part of each stage of the challenge… and expand beyond streets to include everything that I wanted to explore.  With that in mind, the next question was: </p>
+			
+			<h2>Where can I walk?</h2>
+			
+			<p>The decision tree starts with some simple questions:</p>
+			
+			<p class="indent-tree">Can this place be accessed on foot?</p>
+			 <p class="tree-dash">- No = Exclude</p>
+			 <p class="tree-dash">- Yes = Continue evaluation</p>
+
+			<p class="indent-tree">Is the place safe to walk?</p>
+			 <p class="tree-dash">- No = Exclude</p>
+			 <p class="tree-dash">- Yes = Continue evaluation</p>
+						
+			<p>Then it adds something less obvious but important:</p>
+			
+			<p class="indent-tree">Is it normal to walk through it without being challenged or attracting attention?</p>
+			 <p class="tree-dash">- No = Exclude</p>
+			 <p class="tree-dash">- Yes = Continue evaluation</p>
+			
+			<p>The latter was added because, as I walked, I started to come across many places that, while technically public, were not being perceived as such, like a road leading to a single private house. </p>
+			<p>I also chose to exclude:</p>
+			
+			 <p class="indent-list">- Religious spaces (such as cemeteries and sanctuaries) because it felt inappropriate to walk there in the way this challenge would require</p>
+			 <p class="indent-list">- Spaces designed primarily for cars or for industrial use (car parks, gas stations, tunnels, highways, entry/exit ramps, industrial areas, deposits, etc.) since they were unsafe to walk </p>
+			 <p class="indent-list">- Indoor spaces, even if publicly accessible, as they did not fit the spirit of the challenge. This also includes partially open areas like shopping centers and transport infrastructure such as metro stations and bus terminals</p>
+			
+			<h2>What to do with parks?</h2>
+						
+			<p>The next thing I walked into was a park. Valencia is full of them, they come in all shapes and sizes and have many small paths that go in every direction. My first instinct was to walk all of them, immediately, but reason prevailed, and this came out:</p>
+			
+			<p class="indent-tree">Does the area look or feel like a park?</p>
+			 <p class="tree-dash">- No = Continue evaluation</p>
+			 <p class="tree-dash">- Yes = Split by project phase</p>
+			
+			<p>There are 3 project phases, one for each of the zones described earlier. Each phase increases the area where all “streets” need to be walked but also adds more things to be walked in the core project area (Zone 1). In the case of parks, the phase split is as follows:</p>
+			
+			  <p class="indent-list">- Primary phase: Walk the outer perimeter. Surrounding streets count as part of the perimeter. If there are no streets surrounding it, use the closest path inside the park.</p>
+			  <p class="indent-list">- Secondary phase: Walk the widest paths only. For especially wide paths that might need to be walked on both sides, use the same rules described in the streets section.</p>
+			  <p class="indent-list">- Tertiary phase: Walk every path mapped on OSM (if it exists in real life).</p>
+			
+			<h2> Are squares always square? </h2>
+			<p>Much like with parks, most people know a square when they see one. It is usually a flat, open space that can be accessed on foot and often features paths, plants, and amenities. Walking the city, I found plenty of them, but I also started to notice similar spaces that ran parallel to streets and were less “square-shaped”.</p>
+			<p>These spaces are often relatively narrow and long and, despite having a similar function, are not considered squares. In Valencia, the “Paseo Marítimo” is a good example. It sits between the beach and the city and has the same features that are normally found in a square, just in a “longer” format. </p>
+			<p> A similar thing happens in areas that sit next to, or in between, large roads like Ronda Norte or Blasco Ibañez, where there are large spaces with greenery and paths sandwiched between lanes of traffic. For these situations, the decision tree offers the following advice:</p>
+			
+			<p class="indent-tree">Does the space look or function like a square?</p>
+			 <p class="tree-dash">- Yes = Treat it like a park</p>
+			 <p class="tree-dash">- No = Continue evaluation</p>
+			<p>The next question follows a similar logic:</p>
+			
+			<h2>Are universities squares?</h2>
+			<p>Short answer: not quite, but they are not too far off from parks. The challenge here is access. Valencia has many areas that are technically private or have restricted access but are de facto accessible and form part of the city.</p>
+			<p>The main example is the university campuses in the Tarongers area, where fences, gates, and guards theoretically restrict access but where it’s possible to walk unchallenged during opening hours.</p>
+			<p>These areas tend to have a high density of small paths and passages plus a few main roads, or thoroughfares, creating a structure similar to that of parks. Therefore, the decision tree states:</p>
+			
+			<p class="indent-tree">Is the space similar in structure and access to a park?</p>
+			 <p class="tree-dash">- Yes = Treat it like a park</p>
+			 <p class="tree-dash">- No = Continue evaluation</p>
+			 
+			<h2>Can you walk a beach?</h2>
+			<p>Beaches are essential to life, or at least to my life, so they were one of the first edge cases I looked at, and one of the simplest. The key is in the name “edge”, since there are no paths, all I can do is walk the perimeter. Therefore:</p>
+			
+			<p class="indent-tree">Are you looking at a beach?</p>
+			 <p class="tree-dash">- Yes = walk the perimeter, i.e., the shore and the closest street, road, or path on the remaining sides</p>
+			 <p class="tree-dash">- No = Continue evaluation</p>
+			
+			<p>NOTE: Ports are generally treated as beaches, walking the shoreline and perimeter, except when the area being looked at functions more like a square or park.</p>
+			
+			<h2>Can we finally talk about streets?</h2>
+			<p>Yes, ok. At this point, only streets and street-like things should be left, and the tree offers the following advice:</p>
+			
+			<p class="indent-tree">Does it look like a street, road, path, or other feature that people normally use to walk from one place to another? </p>
+			 <p class="tree-dash">- Yes = Continue evaluation</p>
+			 <p class="tree-dash">- No = Exclude (why are you even looking at it?!)</p>
+			
+			<p class="indent-tree">Does it have a barrier down the middle that limits visibility or more than 5 lanes of traffic*?</p>
+			 <p class="tree-dash">- Yes = walk both sides</p>
+			 <p class="tree-dash">- No = walk one side only</p>
+			
+			<p>*Notes on width:</p>
+			 <p class="indent-list">- For pedestrian areas: use an equivalent width. If you think that more than 5 cars could go through side by side with normal traffic separation, walk both sides</p>
+			 <p class="indent-list">- For streets used by cars, ignore parked cars, count only lanes of traffic. Lanes for trams, taxis, or buses count as one lane of traffic each</p>
+			
+			<h2>What about temporary obstacles?</h2>
+			<p>On a final note, there can be areas that are usually accessible but can’t be walked due to a temporary obstacle such as construction work, events, floods, etc. In these cases, the obstacle and the date are noted on the map, and if it is removed by the time all other streets in that zone have been walked, the phase can be considered complete.</p>
+			
+			<p>Congratulations on making it to the end. If you want, you can <a href="index.html">go back to the home page</a>, <a href="maps/latest_high.jpeg"target="_blank" rel="noopener"> open the latest map</a>, or take a well-deserved nap.</p>
+		</main>	
+	</body>
+
+</html>

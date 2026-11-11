@@ -1,0 +1,119 @@
+/* Fonts */
+@font-face{
+	font-family: "Sorts Mill Goudy";
+	src: url("fonts/SortsMillGoudy-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	}
+	
+@font-face{
+	font-family: "Sorts Mill Goudy";
+	src: url("fonts/SortsMillGoudy-Italic.ttf") format("truetype");
+	font-weight: 400;
+	font-style: italic;
+	}
+	
+@font-face{
+	font-family: "Lora";
+	src: url("fonts/Lora-VariableFont_wght.ttf") format("truetype");
+	font-weight: 400 700;
+	font-style: normal;
+	}
+	
+@font-face{
+	font-family: "Lora";
+	src: url("fonts/Lora-Italic-VariableFont_wght.ttf") format("truetype");
+	font-weight: 400 700;
+	font-style: italic;
+	}
+	
+/* Page */
+body{
+	font-family: "Lora";
+	background-color:#faf8f5;
+	}
+
+h1 {
+	font-family: "Sorts Mill Goudy";
+	font-weight: normal;
+	}
+
+h2 {
+	font-weight: normal;
+	}
+
+h3 {
+	font-weight: normal;
+	}
+	
+p {
+	text-align: justify;
+	hyphens: manual;
+	}
+
+.home-title{
+	font-size: 3.5rem;
+	}
+	
+img {
+	width: 100%;
+	height: auto;
+	}
+	
+main{
+	max-width: 75ch;
+	margin: 0 auto;
+	}
+	
+.space-above{
+	margin-top: 2rem;
+	}
+	
+.indent-block {
+	margin-left: 1rem;
+	}
+	
+.indent-tree {
+	margin-left: 2rem;
+	margin-bottom: 0.5rem;
+	text-decoration: underline;
+	text-decoration-thickness: 0.5px;
+	text-underline-offset: 0.2em;
+	font-style: italic;
+	}
+
+.tree-dash {
+	margin-left: 3rem;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	}
+
+.tree-dash-2 {
+	margin-left: 5rem;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	}
+	
+.indent-list {
+	margin-left: 2rem;
+	margin-bottom: 0.5rem;
+	}
+	
+.shortcuts-list {
+	margin-left: 2rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	}
+
+a {
+	color: #000000;
+	text-underline-offset: 0.2em;
+}
+
+a:visited {
+	color: #000000;
+}
+
+a:hover {
+	color: #0000EE;
+}
